@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SitemaProjeto.Models.Projeto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="~/css/mainwindow.css"/>
+</head>
+<body>
+<h1>Lista dos seus Projetos</h1>
+<p></p>
+<p>
+  <a asp-action="InserirProjeto">Inserir Novo Projeto</a>
+</p>
+    
+<p></p>
+
+<table  id="myTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                 <label>Título</label>
+            </th>
+            <th>
+                 <label>Área de Investigação</label>
+            </th> 
+            <th>
+                 <label>Edição</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AreaInvestigacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEdicaoNavigation.Nome)
+            </td>
+           
+            <td>
+                <a asp-action="DetalhesLista" asp-route-id="@item.IdProjeto">Mais Informação</a> 
+                <p></p>
+                <a asp-action="Edit" asp-route-id="@item.IdProjeto">Copiar Projeto</a> 
+                 <p></p>
+                <a asp-action="Eliminar" asp-route-id="@item.IdProjeto">Eliminar</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<SitemaProjeto.Models.Projeto>
+
+@{
+    ViewData["Title"] = "Catalogo";
+}
+
+<body>
+<h2>Catálogo de Projetos</h2>
+<p></p>
+ 
+<table  id="myTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                 <label>Título</label>
+            </th>
+            <th>
+                 <label>Área de Investigação</label>
+            </th> 
+            <th>
+                 <label>Edição</label>
+            </th>
+            <th>
+                <label>Orientador</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AreaInvestigacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdEdicaoNavigation.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdOrientadorNavigation.Nome)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.IdProjeto">Mais Informação</a> 
+                <p></p>
+               @if(ViewBag.ShowAllButtons)
+               {
+                <a asp-action="Delete" asp-route-id="@item.IdProjeto">Eliminar</a>
+               }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</body>

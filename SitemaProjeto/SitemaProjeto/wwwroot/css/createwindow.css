@@ -1,0 +1,36 @@
+﻿body {
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-create {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #ffffff;
+}
+
+.card-create > h1 {
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+}
+
+.form-titulo {
+    width: 300%;
+    height: 30px;
+    font-size: 12pt;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 13pt;
+}

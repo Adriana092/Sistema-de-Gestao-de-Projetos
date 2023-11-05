@@ -1,0 +1,18 @@
+﻿@model SitemaProjeto.Models.Orientador
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div>
+    <label>Tem a certeza que deseja eliminar o Orientador @Html.DisplayFor(model => model.Nome) ?</label>
+    <p></p>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdOrientador" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> 
+        <p></p>
+        <div>
+             <a asp-action="Index"> Voltar</a>
+        </div>
+    </form>
+</div>

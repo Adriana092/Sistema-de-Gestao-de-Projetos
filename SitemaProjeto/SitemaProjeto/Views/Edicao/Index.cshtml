@@ -1,0 +1,48 @@
+﻿@model IEnumerable<SitemaProjeto.Models.Edicao>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<p>
+    <a asp-action="CriarEdicao">Criar Edição</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                <label>Descrição</label>
+            </th>
+            <th>
+                <label>Válido de:</label>
+            </th>
+            <th>
+               <label>Válido Até:</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValidoDe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ValidoAte)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

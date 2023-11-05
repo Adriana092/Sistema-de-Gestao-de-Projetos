@@ -1,0 +1,164 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SitemaProjeto
+build_property.RootNamespace = SitemaProjeto
+build_property.ProjectDir = C:\Users\adria\OneDrive\Ambiente de Trabalho\ProjetoLab\SitemaProjeto\SitemaProjeto\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\adria\OneDrive\Ambiente de Trabalho\ProjetoLab\SitemaProjeto\SitemaProjeto
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Aluno/CriarAluno.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cQ3JpYXJBbHVuby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Aluno/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Aluno/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Aluno/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Aluno/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1bm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Edicao/CriarEdicao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpY2FvXENyaWFyRWRpY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Edicao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpY2FvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Edicao/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpY2FvXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Edicao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpY2FvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Edicao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWRpY2FvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/EscolherGrupo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFc2NvbGhlckdydXBvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/InserirNotas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnNlcmlyTm90YXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/AdicionarOrientador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxBZGljaW9uYXJPcmllbnRhZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Orientador/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JpZW50YWRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Catalogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcQ2F0YWxvZ28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/DetalhesLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRGV0YWxoZXNMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/InscricaoProjetos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcSW5zY3JpY2FvUHJvamV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Projetos/InserirProjeto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamV0b3NcSW5zZXJpclByb2pldG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/adria/OneDrive/Ambiente de Trabalho/ProjetoLab/SitemaProjeto/SitemaProjeto/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9pq0bpm4qj

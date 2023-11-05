@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="~/css/loginpage.css"/>
+</head>
+	<div class="main-login">
+			<div class="right-login">
+				<div class="card-login">
+					<h2>Está a aceder ao Sistema de Gestão de Projetos</h2>
+                    <p></p>
+					<form method="post" action="/Home/Login">
+                    <div class="textfield">
+                        <label for="email">Email UTAD</label>
+                        <input type="text" name="email" placeholder="Email UTAD" />
+                    </div>
+                    <p></p>
+                    <div class="textfield">
+                        <label for="password">Palavra Passe</label>
+                        <input type="password" name="password" placeholder="Password" />
+                    </div>
+                    <button type="submit" class="button-login">Aceder</button>
+                </form>
+                <div id="username" style="display: none;"></div>
+				
+				</div>
+			</div>
+		</div>
+</html>
+
+

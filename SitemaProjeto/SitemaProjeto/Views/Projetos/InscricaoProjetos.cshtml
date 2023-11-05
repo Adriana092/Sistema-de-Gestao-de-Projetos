@@ -1,0 +1,60 @@
+﻿@model IEnumerable<SitemaProjeto.Models.Projeto>
+
+
+
+@{
+    ViewData["Title"] = "InscriçãoProjetos";
+}
+
+<h1>Formulário de Candidatura aos Projetos</h1>
+<hr/>
+<div>
+    <a asp-controller="Home" asp-action="Index">Voltar para a Página Inicial</a>
+</div>
+<p></p>
+<label class=alert-danger>Importante: Antes de fazer a candidatura nos projetos é obrigatória a inscrição nos grupos mesmo que o projeto seja individual.</label>
+<p></p>
+<label class=alert-link>A submissão da candidatura é feita por um elemento do grupo e é obrigatório inscrever-se em pelo menos 30 projetos.</label>
+<p></p>
+
+<h5>1ºPasso:</h5>
+<label>A inscrição nos grupos só precisa de ser feita por um elemento do grupo.</label>
+<p></p>
+<a asp-controller="Home" asp-action="EscolherGrupo"><button class="">Inscrição nos grupos</button></a>
+<p></p>
+<h5>2ºPasso:</h5>
+<label>Cada elemento do grupo tem de submeter a sua média e o número de ects feitos até ao momento.</label>
+<p></p>
+<a asp-controller="Home" asp-action="InserirNotas"><button class="">Enviar Dados</button></a>
+<p></p>
+<h5>3ºPasso:</h5>
+<p></p>
+
+     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <table class="table">
+    <thead>
+        <tr>
+            <th>
+                 <label>Título</label>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+            <form  asp-controller="Projetos" asp-action="CandidaturaProjeto">
+            <div class="form-group">
+               <input type="number" name="projetoIds[@item.IdProjeto]" class="form-control" min="0" step="1" />
+           </div>
+            </form>
+          </td>
+        </tr>
+}     
+    </tbody>
+</table>
+ <input type="submit" value="Submeter" class="btn btn-primary" />

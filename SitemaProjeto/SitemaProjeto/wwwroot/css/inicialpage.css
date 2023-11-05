@@ -1,0 +1,243 @@
+﻿body {
+    margin: auto;
+}
+
+
+.btn-catalogo {
+    width: 180px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-catalogo:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-catalogo:hover:before {
+    opacity: 1;
+}
+
+.btn-candidatura {
+    width: 220px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-candidatura:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-candidatura:hover:before {
+    opacity: 1;
+}
+
+.btn-proposta {
+    width: 240px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-proposta:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-proposta:hover:before {
+    opacity: 1;
+}
+
+.btn-lista {
+    width: 240px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-lista:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-lista:hover:before {
+    opacity: 1;
+}
+
+.btn-lista {
+    width: 240px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-lista:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-lista:hover:before {
+    opacity: 1;
+}
+
+.btn-inserir {
+    width: 240px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-inserir:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-inserir:hover:before {
+    opacity: 1;
+}
+
+.btn-criar {
+    width: 240px;
+    height: 45px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 14pt;
+    background: #0676c7;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn-criar:before {
+    content: '';
+    background: linear-gradient(45deg, #0676c7, #035997);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn-criar:hover:before {
+    opacity: 1;
+}
+

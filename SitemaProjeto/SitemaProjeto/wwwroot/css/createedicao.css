@@ -1,0 +1,26 @@
+﻿body {
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-create {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #ffffff;
+}
+
+.form {
+    width: 180%;
+    height: 30px;
+    font-size: 12pt;
+    padding: 10px;
+}

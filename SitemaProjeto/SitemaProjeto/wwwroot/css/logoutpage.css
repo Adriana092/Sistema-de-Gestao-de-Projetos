@@ -1,0 +1,41 @@
+﻿body {
+    margin: auto;
+}
+
+.main-logout {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.right-logout {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-logout {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px #026bb7;
+}
+
+.card-login > h4 {
+    color: #000000;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card-login > h5 {
+    color: #000000;
+    font-weight: 400;
+    margin: 0;
+}

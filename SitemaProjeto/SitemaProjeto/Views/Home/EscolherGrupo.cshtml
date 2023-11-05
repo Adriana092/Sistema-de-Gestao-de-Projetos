@@ -1,0 +1,51 @@
+﻿@model SitemaProjeto.Models.Grupo
+
+@{
+    ViewData["Title"] = "EscolherGrupo";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EscolherGrupo">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form">
+                         <div>Selecione a Edição:</div>
+                            <select asp-for="IdEdicao" asp-items="@ViewBag.Edicao">
+                            </select>
+                         </div>
+            <div class="form-group">
+               <label>Número Mecanográfico Elemento 1:</label>
+                <input asp-for="NumeroMec1" class="form-control" />
+                <span asp-validation-for="NumeroMec1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Número Mecanográfico Elemento 2:</label>
+                <input asp-for="NumeroMec2" class="form-control" />
+                <span asp-validation-for="NumeroMec2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Número Mecanográfico Elemento 3:</label>
+                <input asp-for="NumeroMec3" class="form-control" />
+                <span asp-validation-for="NumeroMec3" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Número Mecanográfico Elemento 4:</label>
+                <input asp-for="NumeroMec4" class="form-control" />
+                <span asp-validation-for="NumeroMec4" class="text-danger"></span>
+            </div>
+            <p></p>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<p></p>
+<div>
+    <a asp-controller="Projetos" asp-action="InscricaoProjetos">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

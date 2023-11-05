@@ -1,0 +1,79 @@
+﻿@model SitemaProjeto.Models.Projeto
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<h3>Tem a certeza que pretende eliminar este projeto?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            <label>Título:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Titulo)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Número de Alunos:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumAlunos)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Área de Investigação:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AreaInvestigacao)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Centro de Investigação:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CentroInvestigacao)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Apresentação:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Apresentacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Objetivos)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Objetivos)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Edição:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdEdicaoNavigation.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Orientador:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdOrientadorNavigation.Nome)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Coorientadores:</label>
+        </dt>
+        <dd class = "col-sm-10">
+             @Html.DisplayFor(model => model.CoorientadorInterno)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Externo:</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CoorientadorExterno)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="IdProjeto" />
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Catalogo">Voltar para o Catálogo</a>
+    </form>
+</div>

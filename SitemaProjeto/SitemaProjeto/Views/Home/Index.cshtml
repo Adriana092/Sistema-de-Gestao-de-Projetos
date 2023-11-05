@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" href="~/css/inicialpage.css"/>
+</head>
+<style>
+     .background-image {
+         background-image: url('../Images/1.png');
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100vh;
+     }
+</style>
+@if (ViewBag.Notificacao != null)
+{
+    <div id="notification" class="alert alert-info">
+        <strong>@ViewBag.Notificacao.Titulo</strong> - @ViewBag.Notificacao.Mensagem
+    </div>
+}
+
+<script>
+    setTimeout(function () {
+        var notification = document.getElementById("notification");
+        if (notification) {
+            notification.style.display = "none";
+        }
+    }, 20000);
+</script>
+<body>
+	<div class="background-image">
+			<h2>Laboratório de Projeto em Engenharia Informática</h2>
+				<p></p>
+				<a asp-controller="Projetos" asp-action="Catalogo"><button class="btn-candidatura">Catálogo</button></a>
+				<p></p>
+				
+				@if (ViewBag.ShowCandidaturaButton)
+				{
+					<a asp-controller="Projetos" asp-action="InscricaoProjetos"><button class="btn-candidatura">Candidatura Projetos</button></a>
+				}
+				<p></p>
+				@if (ViewBag.ShowAddProjectButton)
+				{
+					
+					<a asp-controller="Projetos" asp-action="Index"><button class ="btn-lista">Lista de Projetos</button></a>
+					<p></p>
+				}
+			    @if (ViewBag.ShowAllButtons)
+				{
+					<a asp-controller="Orientador" asp-action="Index"><button class="btn-candidatura">Lista Orientadores</button></a>
+					<p></p>
+					<a asp-controller="Aluno" asp-action="Index"><button class="btn-catalogo">Lista Alunos</button></a>
+					<p></p>
+					<a asp-controller="Edicao" asp-action="Index"><button class="btn-candidatura">Gerir Edições</button></a>
+				}	
+		</div>
+</body>
+</html>

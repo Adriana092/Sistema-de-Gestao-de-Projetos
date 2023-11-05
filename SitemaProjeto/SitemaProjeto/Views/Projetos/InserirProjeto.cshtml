@@ -1,0 +1,104 @@
+﻿@model SitemaProjeto.Models.Projeto
+
+@{
+    ViewData["Title"] = "InserirProjeto";
+}
+
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="~/css/createwindow.css"/>
+</head>
+<style>
+        body {
+            background-image: url('/Images/3.png');
+            background-repeat: no-repeat;
+            background-size: 120%;
+        }
+</style>
+<body>
+    <div class="row">
+        <div class="card-create">
+        <h1>Inserir Projeto</h1>
+        <p></p>
+        <label class=alert-danger>Todos os projetos inseridos serão sujeitos a validação.</label>
+        <p></p>
+                <div class="col-md-4">
+                    <form asp-action="InserirProjeto">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form">
+                             <label class="titulo">Título</label>
+                             <input asp-for="Titulo" class="form-titulo" />
+                             <span asp-validation-for="Titulo" class="text-danger"></span>
+                        </div>
+                        <p></p>
+                        <div class="form">
+                             <label class="titulo">Número de Alunos</label>
+                             <input asp-for="NumAlunos" class="form-titulo" />
+                             <span asp-validation-for="NumAlunos" class="text-danger"></span>
+                        </div>
+                        <p></p>
+                        <div class="form">
+                             <label class="titulo">Área de Investigação</label>
+                             <input asp-for="AreaInvestigacao" class="form-titulo" />
+                             <span asp-validation-for="AreaInvestigacao" class="text-danger"></span>
+                        </div>
+                        <p></p>
+                        <div class="form">
+                             <label class="titulo">Centro de Investigação</label>
+                             <input asp-for="CentroInvestigacao" class="form-titulo" />
+                             <span asp-validation-for="CentroInvestigacao" class="text-danger"></span>
+                         </div>
+                         <p></p>
+                         <div class="form">
+                             <label class="titulo">Apresentação</label>
+                             <textarea asp-for="Apresentacao" class="form-titulo" style="height: 200px;"></textarea>
+                             <span asp-validation-for="Apresentacao" class="text-danger"></span>
+                         </div>
+                         <p></p>
+                         <div class="form">
+                             <label class="titulo">Objetivos</label>
+                             <textarea asp-for="Objetivos" class="form-titulo" style="height: 200px;"></textarea>
+                             <span asp-validation-for="Objetivos" class="text-danger"></span>
+                         </div>
+                         <p></p>
+                         <div class="form">
+                         <label class="titulo">Selecione a Edição:</label>
+                            <select asp-for="IdEdicao" asp-items="@ViewBag.Edicao">
+                            </select>
+                         </div>
+                         <p></p>
+                          <div class="form">
+                         <label class="titulo">Orientador:</label>
+                            <select asp-for="IdOrientador" asp-items="@ViewBag.Orientador">
+                            </select>
+                         </div>
+                         <p></p>
+                           <div class="form">
+                             <label class="titulo">Coorientador Interno</label>
+                             <input asp-for="CoorientadorInterno" class="form-titulo" />
+                             <span asp-validation-for="CoorientadorInterno" class="text-danger"></span>
+                         </div>
+                         <p></p>
+                           <div class="form">
+                             <label class="titulo">Coorientador Externo</label>
+                             <input asp-for="CoorientadorExterno" class="form-titulo" />
+                             <span asp-validation-for="CoorientadorExterno" class="text-danger"></span>
+                         </div>
+                         <p></p>
+                        <input type="submit" value="Inserir" class="btn btn-primary" />
+                    </form>
+                </div>
+              </div>
+            </div>
+</body>
+</html>
+<p></p>
+<div>
+    <a asp-action="Index"> Ir para a Lista de Projetos</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
